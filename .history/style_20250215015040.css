@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("./img/bg.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;   /* Vertical alignment */
+    justify-content: center;
+}
+
+.timer {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 40px;
+    color: ivory;
+    text-rendering: optimizeSpeed;
+}
+
+.container{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 20px;
+}

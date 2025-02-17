@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("./img/bg.jpeg") no-repeat center center fixed;
+    background-size: cover;    
+}
+
+.container{
+    height: 100vh;
+}
+
+.box{
+    border-left: 12px solid #FDFBFC;
+    border-right: 12px solid #FDFBFC;
+    padding: 24px;
+}
+
+.square1{
+    position: fixed;
+    height: 12px;
+    width: 12px;
+    color: transparent;
+    left: 47px;
+    top: 72px;
+    background-color: transparent;
+}
+
+.square2{
+    position: fixed;
+    height: 12px;
+    width: 12px;
+    color: transparent;
+    left: 0px;
+    top: 0x;
+    background-color: black;
+}
+
+.square3{
+    position: fixed;
+    height: 12px;
+    width: 12px;
+    color: transparent;
+    left: 32px;
+    top: ;
+    background-color: yellow;
+}
+
+.timer{
+    font-family: 'Press Start 2P', monospace;
+    height: 60vh;
+    font-size: 60px;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .timer {
+    
+    font-size: 50px;
+    color: ivory;
+    text-rendering: optimizeSpeed;
+}
+
+.box{
+    width: max-content ;
+    border: 1px solid white;
+}
+
+span{
+    padding: 4px;
+    margin: 8px;
+}
+
+.container{
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: relative; */
+    /* flex-direction: column;
+    justify-content: center;
+
+} */
