@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: url("./img/bg1.gif") no-repeat center center fixed;
+    background: url("./img/bg.jpeg") no-repeat center center fixed;
     background-size: cover;    
 }
 
@@ -214,13 +214,15 @@ body {
 }
 
 .timer{
-    font-family: 'Press Start 2P', monospace;
+    font-family: "Doto", serif;
     height: 60vh;
     font-size: 60px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: 500;
+    ont-variation-settings: "ROND" 0;
 }
 
 .button_container{

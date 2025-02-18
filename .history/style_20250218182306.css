@@ -1,15 +1,18 @@
 body {
     margin: 0;
     padding: 0;
-    background: url("./img/bg1.gif") no-repeat center center fixed;
-    background-size: cover;    
+    background: url("./img/bg.jpeg") no-repeat center center fixed;
+    background-size: cover; 
+    opacity: 0.1;   
 }
 
 .container{
     height: 100vh;
+    opacity: 0.9;
 }
 
 .box{
+    opacity: 0.9;
     border-left: 8px solid #FDFBFC;
     border-right: 8px solid #FDFBFC;
     padding: 24px;
@@ -29,7 +32,7 @@ body {
     height: 8px;
     width: 12px;
     left: 55px;
-    top: 72px;
+    top: 40px;
     background-color: #FDFBFC;
 }
 
@@ -38,7 +41,7 @@ body {
     height: 8px;
     width: 12px;
     left: 79px;
-    top: 72px;
+    top: 40px;
     background-color: #FDFBFC;
 }
 
@@ -47,7 +50,7 @@ body {
     height: 8px;
     width: 380px;
     left: 103px;
-    top: 72px;
+    top: 40px;
     background-color: #FDFBFC;
 }
 
@@ -56,7 +59,7 @@ body {
     height: 8px;
     width: 12px;
     right: 79px;
-    top: 72px;
+    top: 40px;
     background-color: #FDFBFC;
 }
 
@@ -65,7 +68,7 @@ body {
     height: 8px;
     width: 12px;
     right: 55px;
-    top: 72px;
+    top: 40px;
     background-color: #FDFBFC;
 }
 
@@ -74,7 +77,7 @@ body {
     height: 8px;
     width: 12px;
     right: 47px;
-    top: 72px;
+    top: 40px;
     background-color: transparent;
 }
 
@@ -83,7 +86,7 @@ body {
     height: 8px;
     width: 12px;
     left: 47px;
-    top: 179px;
+    top: 191px;
     background-color: transparent;
 }
 
@@ -92,7 +95,7 @@ body {
     height: 8px;
     width: 12px;
     left: 55px;
-    top: 184px;
+    top: 214px;
     background-color: #FDFBFC;
 }
 
@@ -101,7 +104,7 @@ body {
     height: 8px;
     width: 12px;
     left: 79px;
-    top: 184px;
+    top: 214px;
     background-color: #FDFBFC;
 }
 
@@ -110,7 +113,7 @@ body {
     height: 8px;
     width: 380px;
     left: 103px;
-    top: 184px;
+    top: 214px;
     background-color: #FDFBFC;
 }
 
@@ -119,7 +122,7 @@ body {
     height: 8px;
     width: 12px;
     right: 79px;
-    top: 184px;
+    top: 214px;
     background-color: #FDFBFC;
 }
 
@@ -128,7 +131,7 @@ body {
     height: 8px;
     width: 12px;
     right: 55px;
-    top: 184px;
+    top: 214px;
     background-color: #FDFBFC;
 }
 
@@ -137,7 +140,7 @@ body {
     height: 8px;
     width: 12px;
     right: 47px;
-    top: 181px;
+    top: 208px;
     background-color: transparent;
 }
 
@@ -146,7 +149,7 @@ body {
     height: 8px;
     width: 12px;
     left: 67px;
-    top: 65px;
+    top: 48px;
     background-color: #FDFBFC;
 }
 
@@ -155,7 +158,7 @@ body {
     height: 8px;
     width: 12px;
     left: 91px;
-    top: 65px;
+    top: 48px;
     background-color: #FDFBFC;
 }
 
@@ -164,7 +167,7 @@ body {
     height: 8px;
     width: 12px;
     right: 67px;
-    top: 65px;
+    top: 48px;
     background-color: #FDFBFC;
 }
 
@@ -173,7 +176,7 @@ body {
     height: 8px;
     width: 12px;
     right: 91px;
-    top: 65px;
+    top: 48px;
     background-color: #FDFBFC;
 }
 
@@ -182,7 +185,7 @@ body {
     height: 8px;
     width: 12px;
     right: 91px;
-    top: 191px;
+    top: 207px;
     background-color: #FDFBFC;
 }
 
@@ -191,7 +194,7 @@ body {
     height: 8px;
     width: 12px;
     right: 67px;
-    top: 191px;
+    top: 207px;
     background-color: #FDFBFC;
 }
 
@@ -200,7 +203,7 @@ body {
     height: 8px;
     width: 12px;
     left: 67px;
-    top: 191px;
+    top: 207px;
     background-color: #FDFBFC;
 }
 
@@ -209,18 +212,20 @@ body {
     height: 8px;
     width: 12px;
     left: 91px;
-    top: 191px;
+    top: 207px;
     background-color: #FDFBFC;
 }
 
 .timer{
-    font-family: 'Press Start 2P', monospace;
+    font-family: "Doto", serif;
     height: 60vh;
-    font-size: 60px;
+    font-size: 100px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: 900;
+    font-variation-settings: "ROND" 0;
 }
 
 .button_container{

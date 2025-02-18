@@ -37,6 +37,5 @@ resetBtn.addEventListener("click", () => {
 });
 
 stopBtn.addEventListener("click", () =>{
-    clearInterval(timer);
-    timer = null;
+    
 })

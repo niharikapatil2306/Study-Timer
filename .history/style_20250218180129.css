@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: url("./img/bg1.gif") no-repeat center center fixed;
+    background: url("./img/bg.jpeg") no-repeat center center fixed;
     background-size: cover;    
 }
 
@@ -92,7 +92,7 @@ body {
     height: 8px;
     width: 12px;
     left: 55px;
-    top: 184px;
+    top: 179px;
     background-color: #FDFBFC;
 }
 
@@ -101,7 +101,7 @@ body {
     height: 8px;
     width: 12px;
     left: 79px;
-    top: 184px;
+    top: 179px;
     background-color: #FDFBFC;
 }
 

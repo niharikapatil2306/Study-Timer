@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: url("./img/bg1.gif") no-repeat center center fixed;
+    background: url("./img/bg.jpeg") no-repeat center center fixed;
     background-size: cover;    
 }
 
@@ -92,7 +92,7 @@ body {
     height: 8px;
     width: 12px;
     left: 55px;
-    top: 184px;
+    top: 179px;
     background-color: #FDFBFC;
 }
 
@@ -101,7 +101,7 @@ body {
     height: 8px;
     width: 12px;
     left: 79px;
-    top: 184px;
+    top: 179px;
     background-color: #FDFBFC;
 }
 
@@ -110,7 +110,7 @@ body {
     height: 8px;
     width: 380px;
     left: 103px;
-    top: 184px;
+    top: 181px;
     background-color: #FDFBFC;
 }
 
@@ -119,7 +119,7 @@ body {
     height: 8px;
     width: 12px;
     right: 79px;
-    top: 184px;
+    top: 181px;
     background-color: #FDFBFC;
 }
 
@@ -128,17 +128,8 @@ body {
     height: 8px;
     width: 12px;
     right: 55px;
-    top: 184px;
-    background-color: #FDFBFC;
-}
-
-.square12{
-    position: fixed;
-    height: 8px;
-    width: 12px;
-    right: 47px;
     top: 181px;
-    background-color: transparent;
+    background-color: #FDFBFC;
 }
 
 .square13{
@@ -182,7 +173,7 @@ body {
     height: 8px;
     width: 12px;
     right: 91px;
-    top: 191px;
+    top: 186px;
     background-color: #FDFBFC;
 }
 
@@ -191,7 +182,7 @@ body {
     height: 8px;
     width: 12px;
     right: 67px;
-    top: 191px;
+    top: 186px;
     background-color: #FDFBFC;
 }
 
@@ -200,7 +191,7 @@ body {
     height: 8px;
     width: 12px;
     left: 67px;
-    top: 191px;
+    top: 186px;
     background-color: #FDFBFC;
 }
 
@@ -209,7 +200,7 @@ body {
     height: 8px;
     width: 12px;
     left: 91px;
-    top: 191px;
+    top: 186px;
     background-color: #FDFBFC;
 }
 

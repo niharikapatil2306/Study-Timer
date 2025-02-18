@@ -4,7 +4,6 @@ const min = document.getElementById("min");
 const sec = document.getElementById("sec");
 const startBtn = document.getElementById("start");
 const resetBtn = document.getElementById("reset");
-const stopBtn = document.getElementById("stop");
 
 function updateDisplay(){
     let minutes = Math.floor(timeLeft/60);
@@ -36,7 +35,3 @@ resetBtn.addEventListener("click", () => {
     updateDisplay();
 });
 
-stopBtn.addEventListener("click", () =>{
-    clearInterval(timer);
-    timer = null;
-})
