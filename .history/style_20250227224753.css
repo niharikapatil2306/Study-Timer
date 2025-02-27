@@ -1,0 +1,408 @@
+/* For background b1.gif change all black to black*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url("./img/bg1.gif") no-repeat center center fixed;
+    background-size: cover;    
+}
+
+.container{
+    height: 100vh;
+}
+
+.box{
+    border-left: 8px solid black;
+    border-right: 8px solid black;
+    padding: 24px;
+}
+
+.square1{
+    position: fixed;
+    height: 8px;
+    width: 12px;
+    left: 100px;
+    top: 77px;
+    background-color: black;
+}
+
+.square2{
+    position: fixed;
+    height: 8px;
+    width: 12px;
+    left: 110px;
+    top: 72px;
+    background-color: black;
+}
+
+.square3{
+    position: fixed;
+    height: 8px;
+    width: 12px;
+    left: 122px;
+    top: 78px;
+    background-color: black;
+}
+
+.square4{
+    position: fixed;
+    height: 8px;
+    width: 12px;
+    left: 134px;
+    top: 72px;
+    background-color: black;
+}
+
+.square5{
+    position: fixed;
+    height: 8px;
+    width: 12px;
+    left: 98px;
+    top: 79px;
+    opacity: 0.6;
+    background-color: gray;
+}
+
+.square6{
+    position: fixed;
+    height: 8px;
+    width: 12px;
+    left: 108px;
+    top: 74px;
+    opacity: 0.6;
+    background-color: gray;
+}
+
+.square7{
+    position: fixed;
+    height: 8px;
+    width: 12px;
+    left: 120px;
+    top: 81px;
+    opacity: 0.6;
+    background-color: gray;
+}
+
+.square8{
+    position: fixed;
+    height: 8px;
+    width: 12px;
+    left: 132px;
+    top: 74px;
+    opacity: 0.6;
+    background-color: gray;
+}
+
+.line1{
+    position: fixed;
+    height: 8px;
+    width: 295px;
+    left: 146px;
+    top: 78px;
+    background-color: black;
+}
+
+.line3{
+    position: fixed;
+    height: 8px;
+    width: 295px;
+    left: 144px;
+    top: 81px;
+    opacity: 0.6;
+    background-color: gray;
+}
+
+.line5{
+    position: fixed;
+    height: 98px;
+    width: 8px;
+    left: 91px;
+    top: 84px;
+    opacity: 0.6;
+    background-color: gray;
+}
+
+.square9{
+    position: fixed;
+    height: 8px;
+    width: 12px;
+    right: 134px;
+    top: 72px;
+    background-color: black;
+}
+
+.square10{
+    position: fixed;
+    height: 8px;
+    width: 12px;
+    right: 136px;
+    top: 74px;
+    opacity: 0.6;
+    background-color: gray;
+}
+
+
+.square11{
+    position: fixed;
+    height: 8px;
+    width: 12px;
+    right: 122px;
+    top: 78px;
+    background-color: black;
+}
+
+.square12{
+    position: fixed;
+    height: 8px;
+    width: 12px;
+    right: 124px;
+    top: 81px;
+    opacity: 0.6;
+    background-color: gray;
+}
+
+.square13{
+    position: fixed;
+    height: 8px;
+    width: 12px;
+    right:110px;
+    top: 72px;
+    background-color: black;
+}
+
+.square14{
+    position: fixed;
+    height: 8px;
+    width: 12px;
+    right: 112px;
+    top: 74px;
+    opacity: 0.6;
+    background-color: gray;
+}
+
+.square15{
+    position: fixed;
+    height: 8px;
+    width: 12px;
+    right: 98px;
+    top: 78px;
+    background-color: black;
+}
+
+.square16{
+    position: fixed;
+    height: 8px;
+    width: 12px;
+    right: 100px;
+    top: 81px;
+    opacity: 0.6;
+    background-color: gray;
+}
+
+.square17{
+    position: fixed;
+    height: 8px;
+    width: 12px;
+    right: 98px;
+    top: 176px;
+    background-color: black;
+}
+
+.square18{
+    position: fixed;
+    height: 8px;
+    width: 12px;
+    right: 100px;
+    top: 178px;
+    opacity: 0.6;
+    background-color: gray;
+}
+
+.square19{
+    position: fixed;
+    height: 8px;
+    width: 12px;
+    right: 110px;
+    top: 182px;
+    background-color: black;
+}
+
+.square20{
+    position: fixed;
+    height: 8px;
+    width: 12px;
+    right: 112px;
+    top: 185px;
+    opacity: 0.6;
+    background-color: gray;
+}
+
+.square21{
+    position: fixed;
+    height: 8px;
+    width: 12px;
+    right: 122px;
+    top: 176px;
+    background-color: black;
+}
+
+.square22{
+    position: fixed;
+    height: 8px;
+    width: 12px;
+    right: 124px;
+    top: 178px;
+    opacity: 0.6;
+    background-color: gray;
+}
+
+.square23{
+    position: fixed;
+    height: 8px;
+    width: 12px;
+    right: 134px;
+    top: 182px;
+    background-color: black;
+}
+
+.square24{
+    position: fixed;
+    height: 8px;
+    width: 12px;
+    right: 136px;
+    top: 185px;
+    opacity: 0.6;
+    background-color: gray;
+}
+
+.square25{
+    position: fixed;
+    height: 8px;
+    width: 12px;
+    left: 134px;
+    top: 182px;
+    background-color: black;
+}
+
+.square26{
+    position: fixed;
+    height: 8px;
+    width: 12px;
+    left: 132px;
+    top: 185px;
+    opacity: 0.6;
+    background-color: gray;
+}
+
+.square27{
+    position: fixed;
+    height: 8px;
+    width: 12px;
+    left: 122px;
+    top: 176px;
+    background-color: black;
+}
+
+.square28{
+    position: fixed;
+    height: 8px;
+    width: 12px;
+    left: 120px;
+    top: 178px;
+    opacity: 0.6;
+    background-color: gray;
+}
+
+.square29{
+    position: fixed;
+    height: 8px;
+    width: 12px;
+    left: 110px;
+    top: 182px;
+    background-color: black;
+}
+
+.square30{
+    position: fixed;
+    height: 8px;
+    width: 12px;
+    left: 108px;
+    top: 185px;
+    opacity: 0.6;
+    background-color: gray;
+}
+
+.square31{
+    position: fixed;
+    height: 8px;
+    width: 12px;
+    left: 98px;
+    top: 176px;
+    background-color: black;
+}
+
+.square32{
+    position: fixed;
+    height: 8px;
+    width: 12px;
+    left: 96px;
+    top: 178px;
+    opacity: 0.6;
+    background-color: gray;
+}
+
+.line2{
+    position: fixed;
+    height: 8px;
+    width: 295px;
+    left: 146px;
+    top: 176px; 
+    background-color: black;
+}
+
+.line4{
+    position: fixed;
+    height: 8px;
+    width: 295px;
+    left: 143px;
+    top: 178px; 
+    opacity: 0.6;
+    background-color: gray;
+}
+
+.line6{
+    position: fixed;
+    height: 98px;
+    width: 8px;
+    right: 96px;
+    top: 86px;
+    opacity: 0.6;
+    background-color: gray;
+}
+
+.timer{
+    font-family: 'Press Start 2P', monospace;
+    height: 60vh;
+    font-size: 48px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button{
+    font-family: 'Press Start 2P', monospace;
+    border: 2px solid black;
+    height: 36px;
+    width: 100px;
+    font-weight: 400;
+    background-color: transparent;
+    font-size: 16px;
+    color: black;
+}
