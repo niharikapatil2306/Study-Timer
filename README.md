@@ -43,3 +43,7 @@ Comment the reload lines before running these steps!!
 3. The executable can be found in the ```dist/``` folder.
 
 ![alt text](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
