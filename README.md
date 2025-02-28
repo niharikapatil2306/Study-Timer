@@ -42,6 +42,8 @@ Comment the reload lines before running these steps!!
 2. Run the following command to create a Window executable: ```electron-packager . StudyTimer --platform=win32 --arch=x64 --out=dist/ --overwrite```
 3. The executable can be found in the ```dist/``` folder.
 
+## Preview of the App
+
 ![alt text](image.png)
 
 ![alt text](image-1.png)
